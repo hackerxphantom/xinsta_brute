@@ -22,7 +22,7 @@ echo '
    
 __  ___           _            _                _       
 \ \/ (_)_ __  ___| |_ __ _    | |__  _ __ _   _| |_ ___ 
- \  /| | '_ \/ __| __/ _` |   | '_ \| '__| | | | __/ _ \
+ \  /| | |_ \/ __| __/ _| |   | |_ \| |__| | | | __/ _ \
  /  \| | | | \__ \ || (_| |   | |_) | |  | |_| | ||  __/
 /_/\_\_|_| |_|___/\__\__,_|___|_.__/|_|   \__,_|\__\___|
                          |_____| Hacker X Phantom 
@@ -41,10 +41,10 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' optio
 
 
 if [[ $option == 1 || $option == 01 ]]; then
-cd /data/data/com.termux/files/home/igbrute/10M-pass
+cd /data/data/com.termux/files/home/xinsta_brute/10M-pass
 bash 10M-pass.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd /data/data/com.termux/files/home/igbrute/custom-pass
+cd /data/data/com.termux/files/home/xinsta_brute/custom-pass
 bash custom-pass.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 exit 1
