@@ -1,0 +1,46 @@
+#bin/bash
+#Coded By HACKER X PHANTOM(XPH4N70M)
+#coding Begins :)
+
+clear
+sleep 2
+echo -e "\e[1;31m Setting up Required Packages \e[0m"
+#printf '\e[38;5;10m "Setting up Required Packages"\n'
+#"Setting up Required Packages"echo "Setting up Required Packages"
+sleep 1
+
+#cd /data/data/com.termux/files/usr/etc/tor
+#if [[ -f "torrc" ]]
+#then
+
+pkg update -y
+pkg upgrade -y
+apt-get update -y
+apt-get upgrade -y
+pip3 install requests --upgrade
+pkg install python -y
+apt install python
+pkg install python2 -y
+pkg install git -y
+pkg install wget -y
+pkg install lolcat -y
+pip install lolcat
+apt-get install lolcat -y
+pip install install --upgrade pip
+pip3 install requests --upgrade
+pip3 install requests[socks]
+pip3 install stem
+pip3 install instagram-py
+pkg install tor -y
+cd 
+wget -O ~/instapy-config.json "https://git.io/v5DGy"
+cd /data/data/com.termux/files/usr/etc/tor
+rm -rf torrc
+cd $HOME/ighack
+cp -r torrc /data/data/com.termux/files/usr/etc/tor
+cd
+tor
+
+#else
+#cd /data/data/com.termux/files/home/xinsta_brute
+#cp -r torrc /data/data/com.termux/files/usr/etc/tor
