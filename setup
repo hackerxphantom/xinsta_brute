@@ -36,7 +36,7 @@ cd
 wget -O ~/instapy-config.json "https://git.io/v5DGy"
 cd /data/data/com.termux/files/usr/etc/tor
 rm -rf torrc
-cd $HOME/ighack
+cd $HOME/xinsta_brute
 cp -r torrc /data/data/com.termux/files/usr/etc/tor
 cd
 tor
