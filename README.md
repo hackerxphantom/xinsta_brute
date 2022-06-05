@@ -42,6 +42,9 @@ Xinsta_brute is a tool written on Bash. using this tool we can able perform Brut
 
 •Bash Script
  
+ ### <p align="center">Commands to run tool in ur Kali Linux
+***
+        
  ```bash
 pkg update && pkg upgrade -y
 ```
