@@ -39,6 +39,7 @@ rm -rf torrc
 cd $HOME/xinsta_brute
 cp -r torrc /data/data/com.termux/files/usr/etc/tor
 cd
+tor
 
 
 #else
